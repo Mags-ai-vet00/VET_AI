@@ -38,7 +38,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 #LER O DATAFRAME NA FONTE
 import pandas as pd
-df = pd.read_excel(r'C:\Users\B28166\Desktop\EXCEL RELAORIOS DE AVALIAÇÃO\Excel_corretos.xlsx')
+df = pd.read_excel(r'')
 
 
 # In[34]:
@@ -106,7 +106,7 @@ median_df
 
 
 # Defina o caminho do arquivo Excel
-output_excel_path = r"C:\Users\B28166\Desktop\EXCEL RELAORIOS DE AVALIAÇÃO\AVALIACAO1.xlsx"
+output_excel_path = r""
 
 # Exportar o DataFrame para um arquivo Excel
 median_df.to_excel(output_excel_path, index=False, engine='openpyxl')
